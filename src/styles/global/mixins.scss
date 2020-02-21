@@ -1,0 +1,4 @@
+@mixin gradient-border($size){
+    border: $size*1px solid;
+    border-image: var(--gradient) 10;
+}

@@ -1,5 +1,19 @@
-@import url("./reset.scss");
-@import url("./globals.scss");
+@import url("./vendors/reset.scss");
 
-@import url("./blocs/header.scss");
+@import url("./config/colors.scss");
+//@import url("./config/mixins.scss");
+
+@import url("./global/layouts.scss");
+
+
+@import url("./blocs/identity.scss");
 @import url("./blocs/image.scss");
+
+@import url("./blocs/characteristics.scss");
+@import url("./blocs/attack.scss");
+@import url("./blocs/details.scss");
+@import url("./blocs/image.scss");
+@import url("./blocs/stats.scss");
+@import url("./blocs/stat.scss");
+
+

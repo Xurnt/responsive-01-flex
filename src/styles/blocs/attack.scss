@@ -1,0 +1,43 @@
+.attack
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 30vh;
+
+}
+
+.attack__cost
+{
+    display:flex;
+    flex-basis: 17vw;
+    justify-content: space-between
+
+}
+
+.attack__description
+{
+    flex-basis: 70vw;
+    padding: 5%;
+}
+
+.attack__name
+{
+    font-size:1.3em;
+    font-weight: bold;
+    display: inline;
+}
+
+.attack__details
+{
+    font-size: 0.9em;
+    display: inline;
+
+}
+
+.attack__dammage
+{
+    font-size:1.4em;
+    flex-basis: 10vw;
+
+}
